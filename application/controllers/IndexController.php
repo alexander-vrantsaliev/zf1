@@ -4,6 +4,7 @@ class IndexController extends Zend_Controller_Action
 {
 
 	private $_user = null;
+	private $_userRole = null;
 
     public function init()
     {
