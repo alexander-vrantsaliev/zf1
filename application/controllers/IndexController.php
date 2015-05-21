@@ -3,6 +3,8 @@
 class IndexController extends Zend_Controller_Action
 {
 
+	private $_userRole = null;
+
     public function init()
     {
         // Render sidebar for every action
